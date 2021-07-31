@@ -355,7 +355,7 @@ wire [0:0] cin;
 brent_kung b1 (seventh_1,seventh_2,product,0,cin);
 
 endmodule
-
+//sub modules
 module half_adder(input a,b,output sum,cout);
 assign sum=a^b;
 assign cout=a & b;
